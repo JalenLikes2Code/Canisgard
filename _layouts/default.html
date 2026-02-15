@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Lunr Search -->
+  <script src="https://unpkg.com/lunr/lunr.js"></script>
+</head>
+
+<body>
+  {% include header.html %}
+
+  <div class="wiki-container">
+    {% include sidebar.html %}
+    <main class="wiki-content">
+      {{ content }}
+    </main>
+  </div>
+
+  <script src="/assets/js/search.js"></script>
+  <script src="/assets/js/sidebar.js"></script>
+</body>
+</html>
