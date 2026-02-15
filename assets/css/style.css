@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: #0f1115;
+  color: #e6e6e6;
+}
+
+.wiki-container {
+  display: flex;
+}
+
+.wiki-sidebar {
+  width: 260px;
+  background: #171a21;
+  padding: 25px;
+  height: 100vh;
+  position: fixed;
+  overflow-y: auto;
+  border-right: 1px solid #2a2f3a;
+}
+
+.wiki-content {
+  margin-left: 280px;
+  padding: 50px;
+  max-width: 900px;
+}
+
+header {
+  background: #171a21;
+  padding: 15px 40px;
+  border-bottom: 1px solid #2a2f3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title {
+  color: #c6a94c;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.wiki-sidebar h3 {
+  color: #c6a94c;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.collapsible {
+  list-style: none;
+  padding-left: 0;
+}
+
+.collapsible li {
+  margin: 8px 0;
+}
+
+.wiki-sidebar a {
+  color: #a8a8a8;
+  text-decoration: none;
+}
+
+.wiki-sidebar a:hover {
+  color: #c6a94c;
+}
+
+article h1 {
+  border-bottom: 2px solid #c6a94c;
+  padding-bottom: 10px;
+}
+
+.rule-block {
+  background: #171a21;
+  border-left: 4px solid #c6a94c;
+  padding: 18px;
+  margin: 20px 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.lore-block {
+  background: #14161c;
+  padding: 18px;
+  margin: 25px 0;
+  border: 1px solid #2a2f3a;
+  font-style: italic;
+}
