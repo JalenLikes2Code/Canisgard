@@ -1,9 +1,14 @@
+/* ===== BASE ===== */
+
 body {
   margin: 0;
-  font-family: Georgia, serif;
-  background: #0f1115;
+  font-family: "Georgia", serif;
+  background-color: #0f1115;
   color: #e6e6e6;
+  line-height: 1.6;
 }
+
+/* ===== LAYOUT ===== */
 
 .wiki-container {
   display: flex;
@@ -25,60 +30,68 @@ body {
   max-width: 900px;
 }
 
-header {
-  background: #171a21;
-  padding: 15px 40px;
-  border-bottom: 1px solid #2a2f3a;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.site-title {
-  color: #c6a94c;
-  font-weight: bold;
-  letter-spacing: 3px;
-}
+/* ===== SIDEBAR ===== */
 
 .wiki-sidebar h3 {
   color: #c6a94c;
   font-size: 0.9rem;
   letter-spacing: 2px;
-  cursor: pointer;
+  margin-top: 30px;
   text-transform: uppercase;
-  margin-top: 25px;
 }
 
-.collapsible {
+.wiki-sidebar ul {
   list-style: none;
   padding-left: 0;
 }
 
-.collapsible li {
+.wiki-sidebar li {
   margin: 8px 0;
 }
 
 .wiki-sidebar a {
   color: #a8a8a8;
   text-decoration: none;
+  transition: 0.2s;
 }
 
 .wiki-sidebar a:hover {
   color: #c6a94c;
 }
 
+/* ===== HEADINGS ===== */
+
 article h1 {
+  font-size: 2.2rem;
   border-bottom: 2px solid #c6a94c;
   padding-bottom: 10px;
+  margin-bottom: 25px;
 }
+
+article h2 {
+  margin-top: 45px;
+  font-size: 1.4rem;
+  border-left: 4px solid #c6a94c;
+  padding-left: 12px;
+}
+
+article h3 {
+  margin-top: 25px;
+  color: #9e8433;
+}
+
+/* ===== MECHANICS BLOCK ===== */
 
 .rule-block {
   background: #171a21;
-  border-left: 4px solid #c6a94c;
+  border: 1px solid #2a2f3a;
   padding: 18px;
   margin: 20px 0;
+  border-left: 4px solid #c6a94c;
   font-family: "Segoe UI", sans-serif;
 }
+
+/* ===== LORE BLOCK ===== */
 
 .lore-block {
   background: #14161c;
@@ -86,4 +99,47 @@ article h1 {
   margin: 25px 0;
   border: 1px solid #2a2f3a;
   font-style: italic;
+  color: #cfcfcf;
+}
+
+/* ===== FEATURE HEADER ===== */
+
+.feature-title {
+  font-weight: bold;
+  color: #c6a94c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ===== TABLE OF CONTENTS ===== */
+
+#toc {
+  background: #14161c;
+  border: 1px solid #2a2f3a;
+  padding: 15px;
+  margin-bottom: 35px;
+}
+
+#toc ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#toc a {
+  color: #a8a8a8;
+  text-decoration: none;
+}
+
+#toc a:hover {
+  color: #c6a94c;
+}
+
+/* ===== LINKS ===== */
+
+a {
+  color: #c6a94c;
+}
+
+a:hover {
+  color: #e6d38a;
 }
