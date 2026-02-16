@@ -2,15 +2,9 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <title>{{ page.title }}</title>
 </head>
 <body>
-  <div class="sidebar">
-    {% include sidebar.html %}
-  </div>
-  <div class="content">
-    {{ content }}
-  </div>
+  {{ content }}
 </body>
 </html>
