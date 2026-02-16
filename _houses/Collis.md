@@ -1,3 +1,8 @@
+---
+title: House Collis
+layout: page
+---
+
 ##### Border Collie (Ranger) — House Collis
 :
 Ability Scores: +2 Wisdom, +1 Dexterity
