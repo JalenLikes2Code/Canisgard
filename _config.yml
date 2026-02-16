@@ -9,16 +9,16 @@ theme: null
 collections:
   world:
     output: true
-    permalink: /world/:name/
+ 
   rules:
     output: true
-    permalink: /rules/:name/
+  
   houses:
     output: true
-    permalink: /houses/:name/
+   
   races:
     output: true
-    permalink: /races/:name/
+   
 
 defaults:
   - scope:
