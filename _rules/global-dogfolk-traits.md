@@ -1,3 +1,8 @@
+---
+title: Global Dogfolk Traits
+layout: page
+---
+
 ## What Da Dog Doin'?
 
 :
