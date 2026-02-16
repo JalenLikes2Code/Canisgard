@@ -1,7 +1,7 @@
 title: CANISGARD
 description: A Dog-Breed Fantasy Setting for 5e
-baseurl: "/Canisgard"
-url: "https://JalenLikes2Code.github.io"
+baseurl: /Canisgard
+url: https://JalenLikes2Code.github.io
 
 markdown: kramdown
 theme: null
