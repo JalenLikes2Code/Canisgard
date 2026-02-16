@@ -1,5 +1,5 @@
 ---
-title: The Unseen Threat
+title: The Lore
 layout: page
 ---
 
