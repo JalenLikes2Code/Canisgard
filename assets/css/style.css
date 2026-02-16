@@ -143,3 +143,31 @@ a {
 a:hover {
   color: #e6d38a;
 }
+
+
+
+.collapse-toggle {
+  width: 100%;
+  background: #222;
+  color: white;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.collapse-toggle:hover {
+  background: #333;
+}
+
+.collapse-content {
+  display: none;
+  padding-left: 10px;
+}
+
+.collapse-content ul {
+  list-style: none;
+  padding-left: 10px;
+}
