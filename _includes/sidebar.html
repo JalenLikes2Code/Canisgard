@@ -1,29 +1,48 @@
 <h2>CANISGARD</h2>
 
-<h3>World</h3>
-<ul>
-  {% for item in site.world %}
-    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-  {% endfor %}
-</ul>
+<button class="collapse-toggle">World</button>
+<div class="collapse-content">
+  <ul>
+    {% for item in site.world %}
+      <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 
-<h3>Rules</h3>
-<ul>
-  {% for item in site.rules %}
-    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-  {% endfor %}
-</ul>
+<button class="collapse-toggle">Rules</button>
+<div class="collapse-content">
+  <ul>
+    {% for item in site.rules %}
+      <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 
-<h3>Houses</h3>
-<ul>
-  {% for item in site.houses %}
-    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-  {% endfor %}
-</ul>
+<button class="collapse-toggle">Houses</button>
+<div class="collapse-content">
+  <ul>
+    {% for item in site.houses %}
+      <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 
-<h3>Non-Dog Races</h3>
-<ul>
-  {% for item in site.races %}
-    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-  {% endfor %}
-</ul>
+<button class="collapse-toggle">Non-Dog Races</button>
+<div class="collapse-content">
+  <ul>
+    {% for item in site.races %}
+      <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+<script>
+document.querySelectorAll(".collapse-toggle").forEach(btn => {
+  btn.addEventListener("click", function() {
+    this.classList.toggle("active");
+    let content = this.nextElementSibling;
+    content.style.display =
+      content.style.display === "block" ? "none" : "block";
+  });
+});
+</script>
