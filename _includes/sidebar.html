@@ -1,23 +1,29 @@
-<aside class="wiki-sidebar">
+<h2>CANISGARD</h2>
 
-  <h3 onclick="toggleSection(this)">World</h3>
-  <ul class="collapsible">
-    <li><a href="/index.html">Overview</a></li>
-  </ul>
+<h3>World</h3>
+<ul>
+  {% for item in site.world %}
+    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>
 
-  <h3 onclick="toggleSection(this)">Houses</h3>
-  <ul class="collapsible">
-    <li><a href="/houses/house-ghostwind.html">Ghostwind</a></li>
-  </ul>
+<h3>Rules</h3>
+<ul>
+  {% for item in site.rules %}
+    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>
 
-  <h3 onclick="toggleSection(this)">Races</h3>
-  <ul class="collapsible">
-    <li><a href="/races/catfolk.html">Catfolk</a></li>
-  </ul>
+<h3>Houses</h3>
+<ul>
+  {% for item in site.houses %}
+    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>
 
-  <h3 onclick="toggleSection(this)">Rules</h3>
-  <ul class="collapsible">
-    <li><a href="/rules/multiclassing.html">Multiclassing</a></li>
-  </ul>
-
-</aside>
+<h3>Non-Dog Races</h3>
+<ul>
+  {% for item in site.races %}
+    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>
