@@ -18,7 +18,7 @@ And you stand at the center of what comes next.
 
 - [World Overview]({{ site.baseurl }}/world/overview.html)
 - [The Great Houses]({{ site.baseurl }}/houses/collis)
-- [Playable Races]({{ site.baseurl }}/races/overview.html)
+- [Playable Races]({{ site.baseurl }}/races/cats)
 - [Rules & Character Creation]({{ site.baseurl }}/rules/character-creation.html)
 - [Religion & Myth]({{ site.baseurl }}/religion/pantheon-overview.html)
 - [Current Political Factions]({{ site.baseurl }}/factions/loyalists.html)
