@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
 
   <!-- Lunr Search -->
   <script src="https://unpkg.com/lunr/lunr.js"></script>
