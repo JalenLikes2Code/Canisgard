@@ -1,6 +1,6 @@
 ---
 title: Global Dogfolk Traits
-layout: page
+layout: default
 ---
 
 ## What Da Dog Doin'?
