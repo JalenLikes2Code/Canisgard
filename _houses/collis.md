@@ -1,6 +1,6 @@
 ---
 title: House Collis
-layout: page
+layout: default
 ---
 
 ##### Border Collie (Ranger) — House Collis
