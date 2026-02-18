@@ -255,3 +255,12 @@ hr {
   animation: fadeIn 0.2s ease-in-out;
 }
 
+.site-title {
+  text-decoration: none;
+  color: #c7a84b;
+  transition: color 0.2s ease;
+}
+
+.site-title:hover {
+  color: #f0d47a;
+}
