@@ -1,4 +1,9 @@
-##### Cats
+---
+title: Catfolk
+layout: default
+---
+
+##### Catfolk
 ASI
 
 +2 to a stat of your choice, +1 to another
