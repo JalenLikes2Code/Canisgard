@@ -1,3 +1,8 @@
+---
+title: House Collis
+layout: page
+---
+
 ### Multiclassing
 :
 "The Call shapes many paths, but it does not change your blood."
