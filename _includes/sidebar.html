@@ -1,4 +1,11 @@
+<aside class="sidebar">
+
 <h2>CANISGARD</h2>
+
+<div class="search-container">
+  <input type="text" id="searchBox" class="search-input" placeholder="Search the Codex...">
+  <div id="searchResults" class="search-results"></div>
+</div>
 
 <button class="collapse-toggle">World</button>
 <div class="collapse-content">
@@ -36,13 +43,4 @@
   </ul>
 </div>
 
-<script>
-document.querySelectorAll(".collapse-toggle").forEach(btn => {
-  btn.addEventListener("click", function() {
-    this.classList.toggle("active");
-    let content = this.nextElementSibling;
-    content.style.display =
-      content.style.display === "block" ? "none" : "block";
-  });
-});
-</script>
+</aside>
