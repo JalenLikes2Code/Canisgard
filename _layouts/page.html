@@ -2,9 +2,26 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
+  <title>{{ page.title }} | {{ site.title }}</title>
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+
+  <!-- Lunr Search -->
+  <script src="https://unpkg.com/lunr/lunr.js"></script>
 </head>
+
 <body>
-  {{ content }}
+  {% include header.html %}
+
+  <div class="wrapper">
+  {% include sidebar.html %}
+  <main class="content">
+    {{ content }}
+  </main>
+</div>
+
+
+ <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/sidebar.js' | relative_url }}"></script>
 </body>
 </html>
