@@ -13,12 +13,13 @@
 <body>
   {% include header.html %}
 
-  <div class="wiki-container">
-    {% include sidebar.html %}
-    <main class="wiki-content">
-      {{ content }}
-    </main>
-  </div>
+  <div class="wrapper">
+  {% include sidebar.html %}
+  <main class="content">
+    {{ content }}
+  </main>
+</div>
+
 
  <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/sidebar.js' | relative_url }}"></script>
