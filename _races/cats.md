@@ -1,6 +1,5 @@
 ---
 title: Catfolk
-layout: default
 ---
 
 
